@@ -3,7 +3,7 @@
 /**
  * main - Print without using printf and puts
  *
- * Return: Always 0
+ * Return: Always 1
  */
 int main(void)
 {
