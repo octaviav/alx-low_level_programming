@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - prints the size type
  * Return: 0
@@ -11,10 +11,10 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("Size of a char: %lu", sizeof(a));
-	printf("Size of a int: %lu", sizeof(b));
-	printf("Size of a long int: %lu", sizeof(c));
-	printf("Size of a long long int: %lu", sizeof(c));
-	printf("Size of a long float: %lu", sizeof(e));
-	return (0);
+	printf("Size of a char: %lu byte(s)\n", sizeof(a));
+	printf("Size of a int: %lu byte(s)\n", sizeof(b));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(c));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(c));
+	printf("Size of a long float: %lu byte(s)\n", sizeof(e));
+	return (0); 
 }
