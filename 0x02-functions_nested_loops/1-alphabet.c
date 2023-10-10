@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - main function
+ * print_alphabet - lower case
+ *
  * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	_putchar('_');
 	_putchar('p');
