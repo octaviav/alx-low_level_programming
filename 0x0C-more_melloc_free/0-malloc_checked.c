@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 
 /**
- * malloc_checked - cause normal process terminnation with a status value of 98
- * @b: Number of bytes to allocate
- * Return: Pointer to allocate memory on success
+ * malloc_checked - cause normal process termination with a status value of 98
+ * @b: Bytes allocated
+ * Return: 0
  */
 void *malloc_checked(unsigned int b)
 {
@@ -15,5 +16,6 @@ void *malloc_checked(unsigned int b)
 	i = malloc(b);
 	if (i == NULL)
 		exit(98);
+	else
 	return (i);
 }
