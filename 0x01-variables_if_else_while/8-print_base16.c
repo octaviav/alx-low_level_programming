@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - main function
+ * main - entry point
  *
+ * Return: 0
  */
 
 int main(void)
@@ -14,14 +15,15 @@ int main(void)
 	c = 'a';
 	i = 0;
 	while
-		(i < 10){
+		(i < 10)
+		{
 			putchar(i + '0');
-			(i++);
+			i++;
 		}
-	while 
-		(c <= 'f') {
+	while(c <= 'f')
+	{
 			putchar(c);
-			(c++);
+			c++;
 		}
 	putchar('\n');
 	return (0);
