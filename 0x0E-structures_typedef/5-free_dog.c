@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
-* free_dog - frees dogs
-* @d: pointer to dog to free
+* free_dog - frees memory allocated for a struct dog
+* @d: struct dog to free
 *
 * Return: void
 */
