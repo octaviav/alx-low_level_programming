@@ -1,0 +1,1 @@
+#ifndef OBJECT_LIKE_MACRO_H
