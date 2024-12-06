@@ -36,4 +36,5 @@ int covenvert_day(int month, int day, int year)
 			printf("Remaining days: %d\n", 365 - day);
 		}
 	}
+	return (day);
 }
