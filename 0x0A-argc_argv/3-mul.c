@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - multiplies two numbers
  * @argc: number of comman line argument
@@ -8,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	if 
+	if (argc != 3) 
 	{
 		printf("Error\n");
 		return (1);
