@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - entry point
+ * main - Prints numbers from 0 - 9 and letters a - f.
  *
  * Return: 0
  */
@@ -20,11 +20,11 @@ int main(void)
 			putchar(i + '0');
 			i++;
 		}
-	while(c <= 'f')
-	{
-			putchar(c);
-			c++;
+		while (c <= 'f')
+		{
+				putchar(c);
+				c++;
 		}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
